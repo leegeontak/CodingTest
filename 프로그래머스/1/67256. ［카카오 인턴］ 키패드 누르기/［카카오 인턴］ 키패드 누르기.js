@@ -14,7 +14,6 @@ function solution(numbers, hand) {
         0:[3,1],
         "#":[3,2],
     }
-    let prevItem = null; // 이전 item을 저장할 변수
     let leftHand = keypad["*"];
     let rightHand = keypad["#"];
 
